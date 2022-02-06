@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/safety_seal_logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/btnTakePill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="112dp"
+        android:text="Take Pill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/txtBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Pills Left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/imgFish2"
+        android:layout_width="87dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTakePill"
+        app:layout_constraintTop_toBottomOf="@+id/txtBox1"
+        app:srcCompat="@drawable/black_fish" />
+
+    <ImageView
+        android:id="@+id/imgFish3"
+        android:layout_width="87dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTakePill"
+        app:layout_constraintTop_toBottomOf="@+id/txtBox1"
+        app:srcCompat="@drawable/black_fish" />
+
+    <ImageView
+        android:id="@+id/imgFish5"
+        android:layout_width="87dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTakePill"
+        app:layout_constraintTop_toBottomOf="@+id/txtBox1"
+        app:srcCompat="@drawable/black_fish" />
+
+    <ImageView
+        android:id="@+id/imgFish4"
+        android:layout_width="87dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTakePill"
+        app:layout_constraintTop_toBottomOf="@+id/txtBox1"
+        app:srcCompat="@drawable/black_fish" />
+
+    <ImageView
+        android:id="@+id/imgFish1"
+        android:layout_width="87dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTakePill"
+        app:layout_constraintTop_toBottomOf="@+id/txtBox1"
+        app:srcCompat="@drawable/black_fish" />
+
+    <ImageView
+        android:id="@+id/imgSealLook"
+        android:layout_width="148dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/black_seal_look_right" />
+
+</android.support.constraint.ConstraintLayout>
